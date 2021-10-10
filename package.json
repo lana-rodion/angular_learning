@@ -1,0 +1,31 @@
+{
+    "name": "angular_learning",
+    "version": "1.0.0",
+    "description": "Learning Angular to create an application",
+    "main": "index.html",
+    "scripts": {
+      "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+      "type": "git",
+      "url": "git+https://github.com/lana-rodion/angular_learning.git"
+    },
+    "keywords": [
+      "javascript",
+      "oriented",
+      "object",
+      "programming",
+      "angular",
+      "typescript"
+    ],
+    "author": {
+      "name": "Lana Rodion",
+      "email": "lana.rodion@gmail.com",
+      "url": "https://sveartdev.pb.design/"
+    },
+    "license": "MIT",
+    "bugs": {
+      "url": "https://github.com/lana-rodion/angular_learning/issues"
+    },
+    "homepage": "https://github.com/lana-rodion/angular_learning#readme"
+  }
