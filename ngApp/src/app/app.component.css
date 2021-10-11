@@ -1,3 +1,12 @@
 a {
     margin: 6px 10px;
 }
+
+.active {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    padding: 6px;
+    background-color: rgb(196, 135, 252);
+    border-radius: 5px;
+    color: rgb(59, 2, 84);
+}

@@ -1,1 +1,18 @@
 <p>user works!</p>
+
+<p>Input with ngModel</p>
+<input [(ngModel)]="userInput" />
+Test: {{userInput}}
+
+<p>Input with formControl directive</p>
+<input [formControl]="userInputForm" />
+Test: {{userInputForm.value}}
+
+<p>Form with formGroup directive</p>
+<form [formGroup]="userForm">
+    <label>Name </label>
+    <input formControlName="name" />
+    <label>Email </label>
+    <input formControlName="email" />
+    <button (click)="showForm()">Submit Form</button>
+</form>

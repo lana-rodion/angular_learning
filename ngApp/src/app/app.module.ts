@@ -1,6 +1,8 @@
 import { NgModule } from '@angular/core';
+import { FormsModule } from '@angular/forms';
 import { BrowserModule } from '@angular/platform-browser';
 import { RouterModule, Routes } from '@angular/router';
+import { ReactiveFormsModule } from '@angular/forms';
 
 /* import { AppRoutingModule } from './app-routing.module'; */
 import { AppComponent } from './app.component';
@@ -9,7 +11,7 @@ import { UserComponent } from './user/user.component';
 
 const routes: Routes = [
   { path: 'user', component: UserComponent },
-  { path: '', component: MainComponent }
+  { path: 'home', component: MainComponent }
 ]
 
 @NgModule({
@@ -20,7 +22,9 @@ const routes: Routes = [
   ],
   imports: [
     BrowserModule,
-    RouterModule.forRoot(routes)
+    RouterModule.forRoot(routes),
+    FormsModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

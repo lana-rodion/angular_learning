@@ -15,8 +15,9 @@ p, div {
 }
 
 .img-cat {
-    width: 360px;
+    width: 240px;
     height: auto;
+    margin: 12px 6px;
 }
 
 .highlighted {
