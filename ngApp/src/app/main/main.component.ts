@@ -7,9 +7,18 @@ import { Component, OnInit } from '@angular/core';
 })
 export class MainComponent implements OnInit {
 
+  user = "Sve";
+  elements = [1, 2, 3, 4, 5, 6];
+  color = true;
+  date = new Date();
+
   constructor() { }
 
   ngOnInit(): void {
+  }
+
+  userClick() {
+    console.log("clicked");
   }
 
 }

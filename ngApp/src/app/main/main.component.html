@@ -1,1 +1,20 @@
-<p>main works!</p>
+<p>Hello {{ user }}!</p>
+<button class="btn-submit" (click) = "userClick()">Click me!</button>
+<br>
+
+<!-- Example DatePipe -->
+<div>Today: {{date | date:"short" }}</div>
+
+<!-- Example *ngFor with div wich will be iterating -->
+<!-- Example 'highlighted' : i % 2 === 0 colors even let i only  -->
+<div *ngFor="let element of elements; let i" [ngClass]="{'highlighted' : i % 2 === 0}">
+    Hello {{ i }} !
+</div>
+<!-- END Example *ngFor -->
+
+<!-- Example Attribute Directives: ngClass -->
+<!-- <div [ngClass]="{'highlighted' : 'true'}">Directive Attribute</div> -->
+<div [ngClass]="{'highlighted' : color}">Directive Attribute</div>
+<!-- END Example *ngFor -->
+
+<img class="img-cat" src="assets/AvanacoonGalOr_20210324_060315_J0_S3.jpg" alt="cat">
