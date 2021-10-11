@@ -1,0 +1,25 @@
+p, div {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: darkblue;
+    padding: 4px;
+    margin: 4px;
+}
+
+.btn-submit {
+    padding: 2px 6px;
+    background-color: blueviolet;
+    border-radius: 5px;
+    color: #FFF;
+    font-size: 16px;
+    margin: 6px;
+}
+
+.img-cat {
+    width: 360px;
+    height: auto;
+}
+
+.highlighted {
+    background-color: rgb(78, 78, 230);
+    color: rgb(119, 220, 243);
+}
