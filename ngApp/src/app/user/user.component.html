@@ -1,4 +1,8 @@
 <p>user works!</p>
+<!-- Date variable keeps the date of the instanciation of the Service -->
+<div>Date (variable) : {{dateService.date | date:'long'}};</div>
+<!-- Date method keeps the current date -->
+<div>Date (method) : {{dateService.getDate() | date:'long'}};</div>
 
 <p>Input with ngModel</p>
 <input [(ngModel)]="userInput" />

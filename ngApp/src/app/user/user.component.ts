@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { FormGroup, FormControl } from '@angular/forms';
+import { DateService } from '../shared/date.service';
 
 @Component({
   selector: 'app-user',
@@ -15,9 +16,16 @@ export class UserComponent implements OnInit {
   });
   userInputForm = new FormControl('Bonjour');
 
-  constructor() { }
+  /*dateService: DateService;
 
-  ngOnInit(): void {
+  constructor(dateService: DateService) { 
+    this.dateService = dateService;
+  }*/
+
+  constructor(public dateService: DateService) { }
+
+  ngOnInit() {
+    this.dateService.date;
   }
 
   // display form values
